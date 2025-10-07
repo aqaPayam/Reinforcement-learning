@@ -1,0 +1,24 @@
+{
+  "id": "HRP_L252",
+  "model": "HRP",
+  "lookback_days": 252,
+  "params": {
+    "linkage": "single",
+    "risk": "variance"
+  },
+  "assets": [
+    "SPY",
+    "IEFA",
+    "EEM",
+    "IEI",
+    "IEF",
+    "TLT",
+    "LQD",
+    "HYG",
+    "GLD",
+    "DBC"
+  ],
+  "n_decisions": 669,
+  "weights_path": "/content/experts_cache/HRP_L252__weights.parquet",
+  "perf_path": "/content/experts_cache/HRP_L252__perf.parquet"
+}

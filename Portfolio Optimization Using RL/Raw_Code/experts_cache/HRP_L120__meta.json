@@ -1,0 +1,24 @@
+{
+  "id": "HRP_L120",
+  "model": "HRP",
+  "lookback_days": 120,
+  "params": {
+    "linkage": "single",
+    "risk": "variance"
+  },
+  "assets": [
+    "SPY",
+    "IEFA",
+    "EEM",
+    "IEI",
+    "IEF",
+    "TLT",
+    "LQD",
+    "HYG",
+    "GLD",
+    "DBC"
+  ],
+  "n_decisions": 669,
+  "weights_path": "/content/experts_cache/HRP_L120__weights.parquet",
+  "perf_path": "/content/experts_cache/HRP_L120__perf.parquet"
+}

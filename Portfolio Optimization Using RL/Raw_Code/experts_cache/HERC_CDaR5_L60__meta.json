@@ -1,0 +1,26 @@
+{
+  "id": "HERC_CDaR5_L60",
+  "model": "HERC",
+  "lookback_days": 60,
+  "params": {
+    "linkage": "ward",
+    "risk": "cdar",
+    "alpha": 0.05,
+    "max_clusters": 10
+  },
+  "assets": [
+    "SPY",
+    "IEFA",
+    "EEM",
+    "IEI",
+    "IEF",
+    "TLT",
+    "LQD",
+    "HYG",
+    "GLD",
+    "DBC"
+  ],
+  "n_decisions": 669,
+  "weights_path": "/content/experts_cache/HERC_CDaR5_L60__weights.parquet",
+  "perf_path": "/content/experts_cache/HERC_CDaR5_L60__perf.parquet"
+}
